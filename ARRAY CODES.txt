@@ -100,18 +100,4 @@ int main()
         cout << a[i] << " ";
     return 0;
 }
-//Q5 How to reverse an array//
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    int a[5];
-    cout << "Enter 5 elements: ";
-    for(int i = 0; i < 5; i++)
-        cin >> a[i];
-    cout << "Reverse array: ";
-    for(int i = 4; i >= 0; i--)
-        cout << a[i] << " ";
-    return 0;
-}
